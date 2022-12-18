@@ -30,3 +30,4 @@ data "aws_arn" "this" {
   arn = aws_sqs_queue.this[0].arn
 
 }
+
